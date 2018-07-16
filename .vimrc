@@ -9,6 +9,13 @@
 "let g:virtualenv_directory = '~/'
 "let g:ycm_path_to_python_interpreter="/bin/python"
 
+"Update for ycm in case of deprecation warning
+"Update file youcompleteme.vim
+"silent! exec s:python_until_eof
+"from __future__ import unicode_literals
+"from __future__ import print_function
+"from __future__ import division
+
 set nocompatible
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
